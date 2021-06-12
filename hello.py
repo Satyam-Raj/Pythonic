@@ -9,7 +9,7 @@ def Search(s):
 	Url 			=	(wikipedia.page(s).url)
 	Content			=	(wikipedia.page(s).content)
 	References		=	(wikipedia.page(s).references)
-	Related_links	=	(wikipedia.page(s).links)
+	Related_links		=	(wikipedia.page(s).links)
 
 	return Title, Url, Content, References, Related_links
 
