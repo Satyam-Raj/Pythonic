@@ -1,15 +1,15 @@
 import wikipedia
 
 
-def Search(s):
+def Search(subject):
 
-	wikipedia.page(s)
+	wikipedia.page(subject)
 
-	Title			= 	(wikipedia.page(s).title)
-	Url 			=	(wikipedia.page(s).url)
-	Content			=	(wikipedia.page(s).content)
-	References		=	(wikipedia.page(s).references)
-	Related_links		=	(wikipedia.page(s).links)
+	Title			= 	(wikipedia.page(subject).title)
+	Url 			=	(wikipedia.page(subject).url)
+	Content			=	(wikipedia.page(subject).content)
+	References		=	(wikipedia.page(subject).references)
+	Related_links		=	(wikipedia.page(subject).links)
 
 	return Title, Url, Content, References, Related_links
 
