@@ -1,2 +1,2 @@
-# Wikipedia_search
-Python code to search for anything on Wikipedia and gather various types of data.
+# Go Pythonic
+Python code to explore through python
