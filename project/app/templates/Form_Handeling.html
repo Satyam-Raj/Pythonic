@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Django App1</title>
+</head>
+<body>
+<h1><u> FORMS HANDELING IN DJANGO </u></h1>
+<form method="POST">
+<div style = "max-width:470px;">
+{{ form.as_p }}
+{% csrf_token %}
+<input type="submit" class="btnbtn-primary" value="Save">
+</div>
+</form>
+</body>
+</html>
